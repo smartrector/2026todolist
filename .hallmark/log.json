@@ -1,0 +1,22 @@
+{
+  "runs": [{
+    "date": "2026-11-16",
+    "shape": "Manifesto",
+    "theme": "cobalt",
+    "axes": "light/grotesk-sans/cool",
+    "hero": "Poster",
+    "nav": "edge-aligned index",
+    "footer": "letter close",
+    "imagery": "none",
+    "photos": [],
+    "entry": "index.html",
+    "fingerprint": "offset Korean heading; ruled questions; navy disclosures; inquiry preparation; letter close",
+    "sections": ["hero", "questions", "approach", "contact", "careers and footer"],
+    "signature": "offset two-line Korean proposition",
+    "waived": ["59 compact ruled editorial rhythm"],
+    "prompt": "거축 프리미엄 IT 기업 한국어 일반인 대상 네이비 비대칭 절제 프로젝트 문의 상담 채용",
+    "draw": "282d7f",
+    "swaps": ["Index hero to Poster to honor approved asymmetric oversized Korean typography", "slab navigation to edge-aligned index", "booking menu and slots to project inquiry because no booking inventory exists"],
+    "verification": {"static": "0 FAIL, 0 REFLEX, 0 WARN", "render": "unavailable: puppeteer-core absent, npm cache-only", "reviews": "in-thread source only; visual review unverified"}
+  }]
+}

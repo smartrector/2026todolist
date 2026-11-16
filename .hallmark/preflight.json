@@ -1,0 +1,7 @@
+{
+  "scanned": "2026-11-16",
+  "findings": { "fonts": "none", "palette": "none", "motion": "none", "spacing": "none", "framework": "empty workspace; buildless HTML, CSS and JavaScript" },
+  "preserve": ["company name 거축", "text logo", "Korean", "navy accent", "restrained asymmetric direction"],
+  "introduce": ["responsive editorial layout", "Korean font stack", "inquiry preparation", "accessible navigation"],
+  "material": {"real": ["거축", "IT company", "general audience", "project inquiry, consultation, recruitment"], "pictures": [], "absent": ["project cases", "specific service evidence", "metrics", "testimonials", "contact endpoint", "job openings"]}
+}

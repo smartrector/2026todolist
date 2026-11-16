@@ -1,0 +1,6 @@
+.agents/
+node_modules/
+.hallmark/screenshots/
+dist/
+*.zip
+.openai/.local/
