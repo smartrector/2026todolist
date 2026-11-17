@@ -1,0 +1,202 @@
+{
+  "status": "passed",
+  "screenCount": 13,
+  "designBoards": 3,
+  "totalNodes": 613,
+  "variables": 35,
+  "styles": 8,
+  "components": 18,
+  "autoLayoutFrames": 319,
+  "boundNodes": 594,
+  "fonts": [
+    "Pretendard"
+  ],
+  "imageLayers": 0,
+  "contrastReports": [
+    {
+      "foreground": "ink",
+      "background": "paper",
+      "ratio": 14.1,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "secondary",
+      "background": "paper",
+      "ratio": 8.92,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "muted",
+      "background": "paper",
+      "ratio": 5.08,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "onDark",
+      "background": "ink",
+      "ratio": 14.1,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "blue",
+      "background": "blueSoft",
+      "ratio": 5.72,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "success",
+      "background": "successSoft",
+      "ratio": 6.55,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "error",
+      "background": "errorSoft",
+      "ratio": 5.89,
+      "minimum": 4.5
+    },
+    {
+      "foreground": "border",
+      "background": "surface",
+      "ratio": 3.57,
+      "minimum": 3
+    },
+    {
+      "foreground": "focus",
+      "background": "surface",
+      "ratio": 4.26,
+      "minimum": 3
+    },
+    {
+      "foreground": "focus",
+      "background": "paper",
+      "ratio": 3.93,
+      "minimum": 3
+    }
+  ],
+  "frames": [
+    {
+      "id": 2,
+      "name": "Todo List Desktop",
+      "width": 1440,
+      "height": 960,
+      "descendants": 57,
+      "preservedTextCount": 24,
+      "overflow": []
+    },
+    {
+      "id": 60,
+      "name": "Todo List Mobile",
+      "width": 375,
+      "height": 1440,
+      "descendants": 51,
+      "preservedTextCount": 22,
+      "overflow": []
+    },
+    {
+      "id": 112,
+      "name": "Todo Create Desktop",
+      "width": 1440,
+      "height": 960,
+      "descendants": 24,
+      "preservedTextCount": 12,
+      "overflow": []
+    },
+    {
+      "id": 137,
+      "name": "Todo Create Mobile",
+      "width": 375,
+      "height": 1440,
+      "descendants": 21,
+      "preservedTextCount": 10,
+      "overflow": []
+    },
+    {
+      "id": 159,
+      "name": "Todo Edit Desktop",
+      "width": 1440,
+      "height": 960,
+      "descendants": 24,
+      "preservedTextCount": 12,
+      "overflow": []
+    },
+    {
+      "id": 184,
+      "name": "Todo Edit Mobile",
+      "width": 375,
+      "height": 1440,
+      "descendants": 21,
+      "preservedTextCount": 10,
+      "overflow": []
+    },
+    {
+      "id": 206,
+      "name": "Todo Delete Desktop",
+      "width": 1440,
+      "height": 960,
+      "descendants": 22,
+      "preservedTextCount": 11,
+      "overflow": []
+    },
+    {
+      "id": 229,
+      "name": "Todo Delete Mobile",
+      "width": 375,
+      "height": 1440,
+      "descendants": 19,
+      "preservedTextCount": 9,
+      "overflow": []
+    },
+    {
+      "id": 249,
+      "name": "Todo Empty Desktop",
+      "width": 1440,
+      "height": 960,
+      "descendants": 29,
+      "preservedTextCount": 14,
+      "overflow": []
+    },
+    {
+      "id": 279,
+      "name": "Todo Empty Mobile",
+      "width": 375,
+      "height": 1440,
+      "descendants": 26,
+      "preservedTextCount": 12,
+      "overflow": []
+    },
+    {
+      "id": 306,
+      "name": "Todo No Results Desktop",
+      "width": 1440,
+      "height": 960,
+      "descendants": 31,
+      "preservedTextCount": 15,
+      "overflow": []
+    },
+    {
+      "id": 338,
+      "name": "Todo No Results Mobile",
+      "width": 375,
+      "height": 1440,
+      "descendants": 28,
+      "preservedTextCount": 13,
+      "overflow": []
+    },
+    {
+      "id": 367,
+      "name": "Todo Sidebar Open Mobile",
+      "width": 375,
+      "height": 1440,
+      "descendants": 57,
+      "preservedTextCount": 25,
+      "overflow": []
+    }
+  ],
+  "problems": [],
+  "limitations": [
+    "Hover, focus and error are editable design-state examples; no application handlers were implemented.",
+    "Hallmark sloplint was invoked with --render; native .figcraft files are not supported by its HTML/CSS parser. Native frame bounds, typography, contrast and rendered previews were checked instead.",
+    "Python was unavailable. UI/UX Pro Max local CSV product/style entries and skill rules were read directly; automated search/design-system generation was not claimed."
+  ]
+}

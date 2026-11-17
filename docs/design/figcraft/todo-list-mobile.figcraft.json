@@ -1,0 +1,690 @@
+{
+  "status": "prepared-not-created",
+  "source": "docs/wireframes/todo-list-mobile.wireframe.json",
+  "tool": "mcp__figcraft__create_frame",
+  "parameters": {
+    "name": "Todo List Mobile",
+    "width": 375,
+    "height": 1440,
+    "layoutSizingHorizontal": "FIXED",
+    "layoutSizingVertical": "FIXED",
+    "fill": "#FFFFFF",
+    "clipsContent": true,
+    "layoutMode": "VERTICAL",
+    "itemSpacing": 0,
+    "children": [
+      {
+        "name": "헤더",
+        "layoutSizingHorizontal": "FILL",
+        "layoutSizingVertical": "FIXED",
+        "height": 64,
+        "type": "frame",
+        "layoutMode": "HORIZONTAL",
+        "itemSpacing": 8,
+        "children": [
+          {
+            "name": "Todo",
+            "layoutSizingHorizontal": "HUG",
+            "layoutSizingVertical": "FIXED",
+            "height": 40,
+            "type": "text",
+            "content": "Todo",
+            "fontFamily": "Noto Sans KR",
+            "fontSize": 24,
+            "fill": "#333333",
+            "textAutoResize": "HEIGHT",
+            "fontWeight": 700
+          },
+          {
+            "name": "메뉴 열기",
+            "layoutSizingHorizontal": "HUG",
+            "layoutSizingVertical": "FIXED",
+            "height": 44,
+            "type": "frame",
+            "layoutMode": "HORIZONTAL",
+            "counterAxisAlignItems": "CENTER",
+            "primaryAxisAlignItems": "CENTER",
+            "paddingLeft": 12,
+            "paddingRight": 12,
+            "cornerRadius": 4,
+            "fill": "#F2F2F2",
+            "strokeColor": "#A6A6A6",
+            "strokeWeight": 1,
+            "children": [
+              {
+                "type": "text",
+                "name": "메뉴 열기 / Label",
+                "content": "메뉴 열기",
+                "fontFamily": "Noto Sans KR",
+                "fontSize": 14,
+                "fill": "#333333",
+                "layoutSizingHorizontal": "HUG",
+                "layoutSizingVertical": "HUG",
+                "textAutoResize": "WIDTH_AND_HEIGHT"
+              }
+            ]
+          }
+        ],
+        "primaryAxisAlignItems": "SPACE_BETWEEN",
+        "counterAxisAlignItems": "CENTER",
+        "paddingTop": 8,
+        "paddingBottom": 8,
+        "paddingLeft": 16,
+        "paddingRight": 16
+      },
+      {
+        "name": "구분선",
+        "layoutSizingHorizontal": "FILL",
+        "layoutSizingVertical": "FIXED",
+        "type": "frame",
+        "height": 1,
+        "fill": "#D9D9D9"
+      },
+      {
+        "name": "본문",
+        "layoutSizingHorizontal": "FILL",
+        "layoutSizingVertical": "FILL",
+        "type": "frame",
+        "layoutMode": "VERTICAL",
+        "itemSpacing": 0,
+        "children": [
+          {
+            "name": "메인 작업 영역",
+            "layoutSizingHorizontal": "FILL",
+            "layoutSizingVertical": "FILL",
+            "type": "frame",
+            "layoutMode": "VERTICAL",
+            "itemSpacing": 24,
+            "children": [
+              {
+                "name": "페이지 제목과 주요 동작",
+                "layoutSizingHorizontal": "FILL",
+                "layoutSizingVertical": "HUG",
+                "type": "frame",
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 16,
+                "children": [
+                  {
+                    "name": "Todo 목록",
+                    "layoutSizingHorizontal": "FILL",
+                    "layoutSizingVertical": "FIXED",
+                    "height": 48,
+                    "type": "text",
+                    "content": "Todo 목록",
+                    "fontFamily": "Noto Sans KR",
+                    "fontSize": 28,
+                    "fill": "#333333",
+                    "textAutoResize": "HEIGHT",
+                    "fontWeight": 700
+                  },
+                  {
+                    "name": "Todo 등록",
+                    "layoutSizingHorizontal": "FILL",
+                    "layoutSizingVertical": "FIXED",
+                    "height": 44,
+                    "type": "frame",
+                    "layoutMode": "HORIZONTAL",
+                    "counterAxisAlignItems": "CENTER",
+                    "primaryAxisAlignItems": "CENTER",
+                    "paddingLeft": 12,
+                    "paddingRight": 12,
+                    "cornerRadius": 4,
+                    "fill": "#F2F2F2",
+                    "strokeColor": "#A6A6A6",
+                    "strokeWeight": 1,
+                    "children": [
+                      {
+                        "type": "text",
+                        "name": "Todo 등록 / Label",
+                        "content": "Todo 등록",
+                        "fontFamily": "Noto Sans KR",
+                        "fontSize": 14,
+                        "fill": "#333333",
+                        "layoutSizingHorizontal": "HUG",
+                        "layoutSizingVertical": "HUG",
+                        "textAutoResize": "WIDTH_AND_HEIGHT"
+                      }
+                    ]
+                  }
+                ],
+                "primaryAxisAlignItems": "SPACE_BETWEEN"
+              },
+              {
+                "name": "검색·필터 숨기기",
+                "layoutSizingHorizontal": "FILL",
+                "layoutSizingVertical": "FIXED",
+                "height": 44,
+                "type": "frame",
+                "layoutMode": "HORIZONTAL",
+                "counterAxisAlignItems": "CENTER",
+                "primaryAxisAlignItems": "CENTER",
+                "paddingLeft": 12,
+                "paddingRight": 12,
+                "cornerRadius": 4,
+                "fill": "#F2F2F2",
+                "strokeColor": "#A6A6A6",
+                "strokeWeight": 1,
+                "children": [
+                  {
+                    "type": "text",
+                    "name": "검색·필터 숨기기 / Label",
+                    "content": "검색·필터 숨기기",
+                    "fontFamily": "Noto Sans KR",
+                    "fontSize": 14,
+                    "fill": "#333333",
+                    "layoutSizingHorizontal": "HUG",
+                    "layoutSizingVertical": "HUG",
+                    "textAutoResize": "WIDTH_AND_HEIGHT"
+                  }
+                ]
+              },
+              {
+                "name": "검색 및 상태 필터",
+                "layoutSizingHorizontal": "FILL",
+                "layoutSizingVertical": "HUG",
+                "type": "frame",
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 16,
+                "children": [
+                  {
+                    "name": "내용 검색",
+                    "layoutSizingHorizontal": "FILL",
+                    "layoutSizingVertical": "FILL",
+                    "type": "frame",
+                    "layoutMode": "VERTICAL",
+                    "itemSpacing": 8,
+                    "children": [
+                      {
+                        "name": "검색",
+                        "layoutSizingHorizontal": "FILL",
+                        "layoutSizingVertical": "FIXED",
+                        "height": 24,
+                        "type": "text",
+                        "content": "검색",
+                        "fontFamily": "Noto Sans KR",
+                        "fontSize": 12,
+                        "fill": "#333333",
+                        "textAutoResize": "HEIGHT"
+                      },
+                      {
+                        "name": "Todo 내용 검색",
+                        "layoutSizingHorizontal": "FILL",
+                        "layoutSizingVertical": "FIXED",
+                        "height": 44,
+                        "type": "frame",
+                        "layoutMode": "HORIZONTAL",
+                        "counterAxisAlignItems": "CENTER",
+                        "primaryAxisAlignItems": "MIN",
+                        "paddingLeft": 12,
+                        "paddingRight": 12,
+                        "cornerRadius": 4,
+                        "fill": "#FFFFFF",
+                        "strokeColor": "#A6A6A6",
+                        "strokeWeight": 1,
+                        "children": [
+                          {
+                            "type": "text",
+                            "name": "Todo 내용 검색 / Label",
+                            "content": "Todo 내용 검색",
+                            "fontFamily": "Noto Sans KR",
+                            "fontSize": 14,
+                            "fill": "#333333",
+                            "layoutSizingHorizontal": "HUG",
+                            "layoutSizingVertical": "HUG",
+                            "textAutoResize": "WIDTH_AND_HEIGHT"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "상태 선택",
+                    "layoutSizingHorizontal": "FILL",
+                    "layoutSizingVertical": "HUG",
+                    "type": "frame",
+                    "layoutMode": "VERTICAL",
+                    "itemSpacing": 8,
+                    "children": [
+                      {
+                        "name": "상태 필터",
+                        "layoutSizingHorizontal": "FILL",
+                        "layoutSizingVertical": "FIXED",
+                        "height": 24,
+                        "type": "text",
+                        "content": "상태 필터",
+                        "fontFamily": "Noto Sans KR",
+                        "fontSize": 12,
+                        "fill": "#333333",
+                        "textAutoResize": "HEIGHT"
+                      },
+                      {
+                        "name": "전체 / 미완료 / 완료",
+                        "layoutSizingHorizontal": "FILL",
+                        "layoutSizingVertical": "FIXED",
+                        "height": 44,
+                        "type": "frame",
+                        "layoutMode": "HORIZONTAL",
+                        "counterAxisAlignItems": "CENTER",
+                        "primaryAxisAlignItems": "MIN",
+                        "paddingLeft": 12,
+                        "paddingRight": 12,
+                        "cornerRadius": 4,
+                        "fill": "#FFFFFF",
+                        "strokeColor": "#A6A6A6",
+                        "strokeWeight": 1,
+                        "children": [
+                          {
+                            "type": "text",
+                            "name": "전체 / 미완료 / 완료 / Label",
+                            "content": "전체 / 미완료 / 완료",
+                            "fontFamily": "Noto Sans KR",
+                            "fontSize": 14,
+                            "fill": "#333333",
+                            "layoutSizingHorizontal": "HUG",
+                            "layoutSizingVertical": "HUG",
+                            "textAutoResize": "WIDTH_AND_HEIGHT"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "예시 데이터: 전체 3개 / 미완료 2개 / 완료 1개",
+                "layoutSizingHorizontal": "FILL",
+                "layoutSizingVertical": "FIXED",
+                "height": 40,
+                "type": "text",
+                "content": "예시 데이터: 전체 3개 / 미완료 2개 / 완료 1개",
+                "fontFamily": "Noto Sans KR",
+                "fontSize": 12,
+                "fill": "#333333",
+                "textAutoResize": "HEIGHT"
+              },
+              {
+                "name": "Todo 목록",
+                "layoutSizingHorizontal": "FILL",
+                "layoutSizingVertical": "HUG",
+                "type": "frame",
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 12,
+                "children": [
+                  {
+                    "name": "화면 흐름 문서 검토 항목",
+                    "layoutSizingHorizontal": "FILL",
+                    "layoutSizingVertical": "FIXED",
+                    "height": 80,
+                    "type": "frame",
+                    "layoutMode": "HORIZONTAL",
+                    "itemSpacing": 8,
+                    "children": [
+                      {
+                        "name": "화면 흐름 문서 검토",
+                        "layoutSizingHorizontal": "FILL",
+                        "layoutSizingVertical": "FIXED",
+                        "height": 64,
+                        "type": "text",
+                        "content": "화면 흐름 문서 검토",
+                        "fontFamily": "Noto Sans KR",
+                        "fontSize": 14,
+                        "fill": "#333333",
+                        "textAutoResize": "HEIGHT"
+                      },
+                      {
+                        "name": "완료 상태 및 항목 동작",
+                        "layoutSizingHorizontal": "HUG",
+                        "layoutSizingVertical": "HUG",
+                        "type": "frame",
+                        "layoutMode": "HORIZONTAL",
+                        "itemSpacing": 4,
+                        "children": [
+                          {
+                            "name": "미완료",
+                            "layoutSizingHorizontal": "HUG",
+                            "layoutSizingVertical": "FIXED",
+                            "height": 32,
+                            "type": "frame",
+                            "layoutMode": "HORIZONTAL",
+                            "counterAxisAlignItems": "CENTER",
+                            "primaryAxisAlignItems": "CENTER",
+                            "paddingLeft": 8,
+                            "paddingRight": 8,
+                            "cornerRadius": 4,
+                            "fill": "#F2F2F2",
+                            "strokeColor": "#A6A6A6",
+                            "strokeWeight": 1,
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "미완료 / Label",
+                                "content": "미완료",
+                                "fontFamily": "Noto Sans KR",
+                                "fontSize": 12,
+                                "fill": "#333333",
+                                "layoutSizingHorizontal": "HUG",
+                                "layoutSizingVertical": "HUG",
+                                "textAutoResize": "WIDTH_AND_HEIGHT"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "수정",
+                            "layoutSizingHorizontal": "HUG",
+                            "layoutSizingVertical": "FIXED",
+                            "height": 32,
+                            "type": "frame",
+                            "layoutMode": "HORIZONTAL",
+                            "counterAxisAlignItems": "CENTER",
+                            "primaryAxisAlignItems": "CENTER",
+                            "paddingLeft": 8,
+                            "paddingRight": 8,
+                            "cornerRadius": 4,
+                            "fill": "#F2F2F2",
+                            "strokeColor": "#A6A6A6",
+                            "strokeWeight": 1,
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "수정 / Label",
+                                "content": "수정",
+                                "fontFamily": "Noto Sans KR",
+                                "fontSize": 12,
+                                "fill": "#333333",
+                                "layoutSizingHorizontal": "HUG",
+                                "layoutSizingVertical": "HUG",
+                                "textAutoResize": "WIDTH_AND_HEIGHT"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "삭제",
+                            "layoutSizingHorizontal": "HUG",
+                            "layoutSizingVertical": "FIXED",
+                            "height": 32,
+                            "type": "frame",
+                            "layoutMode": "HORIZONTAL",
+                            "counterAxisAlignItems": "CENTER",
+                            "primaryAxisAlignItems": "CENTER",
+                            "paddingLeft": 8,
+                            "paddingRight": 8,
+                            "cornerRadius": 4,
+                            "fill": "#F2F2F2",
+                            "strokeColor": "#A6A6A6",
+                            "strokeWeight": 1,
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "삭제 / Label",
+                                "content": "삭제",
+                                "fontFamily": "Noto Sans KR",
+                                "fontSize": 12,
+                                "fill": "#333333",
+                                "layoutSizingHorizontal": "HUG",
+                                "layoutSizingVertical": "HUG",
+                                "textAutoResize": "WIDTH_AND_HEIGHT"
+                              }
+                            ]
+                          }
+                        ],
+                        "counterAxisAlignItems": "CENTER"
+                      }
+                    ],
+                    "counterAxisAlignItems": "CENTER"
+                  },
+                  {
+                    "name": "와이어프레임 의견 정리 항목",
+                    "layoutSizingHorizontal": "FILL",
+                    "layoutSizingVertical": "FIXED",
+                    "height": 80,
+                    "type": "frame",
+                    "layoutMode": "HORIZONTAL",
+                    "itemSpacing": 8,
+                    "children": [
+                      {
+                        "name": "와이어프레임 의견 정리",
+                        "layoutSizingHorizontal": "FILL",
+                        "layoutSizingVertical": "FIXED",
+                        "height": 64,
+                        "type": "text",
+                        "content": "와이어프레임 의견 정리",
+                        "fontFamily": "Noto Sans KR",
+                        "fontSize": 14,
+                        "fill": "#333333",
+                        "textAutoResize": "HEIGHT"
+                      },
+                      {
+                        "name": "완료 상태 및 항목 동작",
+                        "layoutSizingHorizontal": "HUG",
+                        "layoutSizingVertical": "HUG",
+                        "type": "frame",
+                        "layoutMode": "HORIZONTAL",
+                        "itemSpacing": 4,
+                        "children": [
+                          {
+                            "name": "완료",
+                            "layoutSizingHorizontal": "HUG",
+                            "layoutSizingVertical": "FIXED",
+                            "height": 32,
+                            "type": "frame",
+                            "layoutMode": "HORIZONTAL",
+                            "counterAxisAlignItems": "CENTER",
+                            "primaryAxisAlignItems": "CENTER",
+                            "paddingLeft": 8,
+                            "paddingRight": 8,
+                            "cornerRadius": 4,
+                            "fill": "#F2F2F2",
+                            "strokeColor": "#A6A6A6",
+                            "strokeWeight": 1,
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "완료 / Label",
+                                "content": "완료",
+                                "fontFamily": "Noto Sans KR",
+                                "fontSize": 12,
+                                "fill": "#333333",
+                                "layoutSizingHorizontal": "HUG",
+                                "layoutSizingVertical": "HUG",
+                                "textAutoResize": "WIDTH_AND_HEIGHT"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "수정",
+                            "layoutSizingHorizontal": "HUG",
+                            "layoutSizingVertical": "FIXED",
+                            "height": 32,
+                            "type": "frame",
+                            "layoutMode": "HORIZONTAL",
+                            "counterAxisAlignItems": "CENTER",
+                            "primaryAxisAlignItems": "CENTER",
+                            "paddingLeft": 8,
+                            "paddingRight": 8,
+                            "cornerRadius": 4,
+                            "fill": "#F2F2F2",
+                            "strokeColor": "#A6A6A6",
+                            "strokeWeight": 1,
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "수정 / Label",
+                                "content": "수정",
+                                "fontFamily": "Noto Sans KR",
+                                "fontSize": 12,
+                                "fill": "#333333",
+                                "layoutSizingHorizontal": "HUG",
+                                "layoutSizingVertical": "HUG",
+                                "textAutoResize": "WIDTH_AND_HEIGHT"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "삭제",
+                            "layoutSizingHorizontal": "HUG",
+                            "layoutSizingVertical": "FIXED",
+                            "height": 32,
+                            "type": "frame",
+                            "layoutMode": "HORIZONTAL",
+                            "counterAxisAlignItems": "CENTER",
+                            "primaryAxisAlignItems": "CENTER",
+                            "paddingLeft": 8,
+                            "paddingRight": 8,
+                            "cornerRadius": 4,
+                            "fill": "#F2F2F2",
+                            "strokeColor": "#A6A6A6",
+                            "strokeWeight": 1,
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "삭제 / Label",
+                                "content": "삭제",
+                                "fontFamily": "Noto Sans KR",
+                                "fontSize": 12,
+                                "fill": "#333333",
+                                "layoutSizingHorizontal": "HUG",
+                                "layoutSizingVertical": "HUG",
+                                "textAutoResize": "WIDTH_AND_HEIGHT"
+                              }
+                            ]
+                          }
+                        ],
+                        "counterAxisAlignItems": "CENTER"
+                      }
+                    ],
+                    "counterAxisAlignItems": "CENTER"
+                  },
+                  {
+                    "name": "등록 폼 검증 항목 확인 항목",
+                    "layoutSizingHorizontal": "FILL",
+                    "layoutSizingVertical": "FIXED",
+                    "height": 80,
+                    "type": "frame",
+                    "layoutMode": "HORIZONTAL",
+                    "itemSpacing": 8,
+                    "children": [
+                      {
+                        "name": "등록 폼 검증 항목 확인",
+                        "layoutSizingHorizontal": "FILL",
+                        "layoutSizingVertical": "FIXED",
+                        "height": 64,
+                        "type": "text",
+                        "content": "등록 폼 검증 항목 확인",
+                        "fontFamily": "Noto Sans KR",
+                        "fontSize": 14,
+                        "fill": "#333333",
+                        "textAutoResize": "HEIGHT"
+                      },
+                      {
+                        "name": "완료 상태 및 항목 동작",
+                        "layoutSizingHorizontal": "HUG",
+                        "layoutSizingVertical": "HUG",
+                        "type": "frame",
+                        "layoutMode": "HORIZONTAL",
+                        "itemSpacing": 4,
+                        "children": [
+                          {
+                            "name": "미완료",
+                            "layoutSizingHorizontal": "HUG",
+                            "layoutSizingVertical": "FIXED",
+                            "height": 32,
+                            "type": "frame",
+                            "layoutMode": "HORIZONTAL",
+                            "counterAxisAlignItems": "CENTER",
+                            "primaryAxisAlignItems": "CENTER",
+                            "paddingLeft": 8,
+                            "paddingRight": 8,
+                            "cornerRadius": 4,
+                            "fill": "#F2F2F2",
+                            "strokeColor": "#A6A6A6",
+                            "strokeWeight": 1,
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "미완료 / Label",
+                                "content": "미완료",
+                                "fontFamily": "Noto Sans KR",
+                                "fontSize": 12,
+                                "fill": "#333333",
+                                "layoutSizingHorizontal": "HUG",
+                                "layoutSizingVertical": "HUG",
+                                "textAutoResize": "WIDTH_AND_HEIGHT"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "수정",
+                            "layoutSizingHorizontal": "HUG",
+                            "layoutSizingVertical": "FIXED",
+                            "height": 32,
+                            "type": "frame",
+                            "layoutMode": "HORIZONTAL",
+                            "counterAxisAlignItems": "CENTER",
+                            "primaryAxisAlignItems": "CENTER",
+                            "paddingLeft": 8,
+                            "paddingRight": 8,
+                            "cornerRadius": 4,
+                            "fill": "#F2F2F2",
+                            "strokeColor": "#A6A6A6",
+                            "strokeWeight": 1,
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "수정 / Label",
+                                "content": "수정",
+                                "fontFamily": "Noto Sans KR",
+                                "fontSize": 12,
+                                "fill": "#333333",
+                                "layoutSizingHorizontal": "HUG",
+                                "layoutSizingVertical": "HUG",
+                                "textAutoResize": "WIDTH_AND_HEIGHT"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "삭제",
+                            "layoutSizingHorizontal": "HUG",
+                            "layoutSizingVertical": "FIXED",
+                            "height": 32,
+                            "type": "frame",
+                            "layoutMode": "HORIZONTAL",
+                            "counterAxisAlignItems": "CENTER",
+                            "primaryAxisAlignItems": "CENTER",
+                            "paddingLeft": 8,
+                            "paddingRight": 8,
+                            "cornerRadius": 4,
+                            "fill": "#F2F2F2",
+                            "strokeColor": "#A6A6A6",
+                            "strokeWeight": 1,
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "삭제 / Label",
+                                "content": "삭제",
+                                "fontFamily": "Noto Sans KR",
+                                "fontSize": 12,
+                                "fill": "#333333",
+                                "layoutSizingHorizontal": "HUG",
+                                "layoutSizingVertical": "HUG",
+                                "textAutoResize": "WIDTH_AND_HEIGHT"
+                              }
+                            ]
+                          }
+                        ],
+                        "counterAxisAlignItems": "CENTER"
+                      }
+                    ],
+                    "counterAxisAlignItems": "CENTER"
+                  }
+                ]
+              }
+            ],
+            "padding": 24
+          }
+        ]
+      }
+    ],
+    "x": 1520,
+    "y": 0
+  }
+}

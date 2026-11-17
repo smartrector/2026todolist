@@ -1,0 +1,144 @@
+{
+  "name": "Todo Edit Desktop",
+  "viewport": {
+    "width": 1440,
+    "height": 960
+  },
+  "root": {
+    "name": "페이지",
+    "direction": "vertical",
+    "children": [
+      {
+        "name": "헤더",
+        "direction": "horizontal",
+        "children": [
+          {
+            "name": "Todo",
+            "type": "text",
+            "variant": "heading",
+            "height": 40
+          },
+          {
+            "name": "할 일 관리",
+            "type": "text",
+            "variant": "caption",
+            "height": 24
+          }
+        ],
+        "height": 64,
+        "padding": [
+          8,
+          24
+        ],
+        "gap": 8,
+        "justify": "space-between",
+        "align": "center"
+      },
+      {
+        "name": "구분선",
+        "type": "divider"
+      },
+      {
+        "name": "본문",
+        "direction": "horizontal",
+        "children": [
+          {
+            "name": "사이드바",
+            "direction": "vertical",
+            "children": [
+              {
+                "name": "작업 공간",
+                "type": "text",
+                "variant": "caption",
+                "height": 24
+              },
+              {
+                "name": "Todo 목록 (현재 위치)",
+                "type": "link",
+                "height": 44
+              }
+            ],
+            "width": 240,
+            "grow": false,
+            "gap": 8,
+            "padding": 24,
+            "_solves": "요청된 고정 탐색 영역. 목록으로 복귀하며 검색·필터를 중복 배치하지 않는다."
+          },
+          {
+            "name": "메인 작업 영역",
+            "direction": "vertical",
+            "children": [
+              {
+                "name": "Todo 수정",
+                "type": "text",
+                "variant": "display",
+                "height": 48
+              },
+              {
+                "name": "목록으로 돌아가기",
+                "type": "link",
+                "height": 44
+              },
+              {
+                "name": "Todo 입력 폼",
+                "direction": "vertical",
+                "children": [
+                  {
+                    "name": "Todo 내용 (필수)",
+                    "type": "text",
+                    "height": 24
+                  },
+                  {
+                    "name": "화면 흐름 문서 검토 (기존 내용)",
+                    "type": "input",
+                    "height": 144,
+                    "grow": true
+                  },
+                  {
+                    "name": "공백만 입력하면 저장할 수 없습니다.",
+                    "type": "text",
+                    "variant": "caption",
+                    "height": 24
+                  },
+                  {
+                    "name": "완료 상태: 미완료 (기존 상태 유지)",
+                    "type": "text",
+                    "variant": "caption",
+                    "height": 24
+                  },
+                  {
+                    "name": "저장과 취소",
+                    "direction": "horizontal",
+                    "children": [
+                      {
+                        "name": "취소",
+                        "type": "link",
+                        "height": 44
+                      },
+                      {
+                        "name": "변경 내용 저장",
+                        "type": "button",
+                        "height": 44
+                      }
+                    ],
+                    "gap": 8,
+                    "justify": "flex-end"
+                  }
+                ],
+                "gap": 16,
+                "padding": 24,
+                "maxWidth": 720,
+                "_solves": "등록·수정 성공 또는 취소 시 기존 검색·필터를 유지한 목록으로 돌아간다. 오류는 입력 필드 가까이에 표시하며 입력을 유지한다."
+              }
+            ],
+            "grow": true,
+            "padding": 32,
+            "gap": 32
+          }
+        ],
+        "grow": true
+      }
+    ],
+    "height": 960
+  }
+}

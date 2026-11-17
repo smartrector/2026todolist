@@ -1,0 +1,19 @@
+{
+  "status": "created-and-verified",
+  "fileKey": "F9EHk7ctFWMH88rcaWfo7u",
+  "pageId": "0:1",
+  "tool": "Figma official MCP use_figma",
+  "frames": [
+    { "name": "Todo List Desktop", "nodeId": "5:261", "width": 1440, "height": 960 },
+    { "name": "Todo List Mobile", "nodeId": "5:387", "width": 375, "height": 1440 }
+  ],
+  "verification": {
+    "editableLayers": true,
+    "imageFills": 0,
+    "fontFamily": "Noto Sans KR",
+    "library": "Simple Design System",
+    "screenshotsReviewed": true,
+    "mobileSearchOverlapFixed": true,
+    "primaryButtonContrastFixed": true
+  }
+}

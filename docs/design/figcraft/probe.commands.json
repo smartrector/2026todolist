@@ -1,0 +1,3 @@
+[
+  {"command":"frame.create","params":{"name":"Probe","width":375,"height":300,"props":{"fill":"#FFFFFF","layout":"vertical","padding":24,"gap":16}}}
+]

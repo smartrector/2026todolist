@@ -1,0 +1,5 @@
+[
+ {"name":"run_command","arguments":{"command":"text.fonts","params":{"family":"Pretendard"}}},
+ {"name":"list_commands","arguments":{"filter":"font"},"maxOutput":4500},
+ {"name":"list_commands","arguments":{"filter":"variable"},"saveResult":"C:/hanyong5/04test/01testproject/docs/design/figcraft/mcp-variable-commands.json","maxOutput":1000}
+]

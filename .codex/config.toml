@@ -1,0 +1,15 @@
+[mcp_servers.figcraft]
+command = "C:/Program Files/nodejs/node.exe"
+args = ["C:/hanyong5/04test/01testproject/.tools/figcraft/dist/mcp-server/index.js"]
+cwd = "C:/hanyong5/program/figcraft"
+startup_timeout_sec = 30
+
+[mcp_servers.figcraft.tools.list_toolsets]
+approval_mode = "approve"
+
+[mcp_servers.figcraft.env]
+FIGCRAFT_RELAY_HOST = "192.168.100.2"
+FIGCRAFT_RELAY_URL = "ws://192.168.100.2:47900"
+FIGCRAFT_CHANNEL = "R2M68-0NV3H-RQC3G-6PMDW"
+[mcp_servers.figma]
+url = "https://mcp.figma.com/mcp"

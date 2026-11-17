@@ -1,0 +1,184 @@
+{
+  "name": "Todo Empty Desktop",
+  "viewport": {
+    "width": 1440,
+    "height": 960
+  },
+  "root": {
+    "name": "페이지",
+    "direction": "vertical",
+    "children": [
+      {
+        "name": "헤더",
+        "direction": "horizontal",
+        "children": [
+          {
+            "name": "Todo",
+            "type": "text",
+            "variant": "heading",
+            "height": 40
+          },
+          {
+            "name": "할 일 관리",
+            "type": "text",
+            "variant": "caption",
+            "height": 24
+          }
+        ],
+        "height": 64,
+        "padding": [
+          8,
+          24
+        ],
+        "gap": 8,
+        "justify": "space-between",
+        "align": "center"
+      },
+      {
+        "name": "구분선",
+        "type": "divider"
+      },
+      {
+        "name": "본문",
+        "direction": "horizontal",
+        "children": [
+          {
+            "name": "사이드바",
+            "direction": "vertical",
+            "children": [
+              {
+                "name": "작업 공간",
+                "type": "text",
+                "variant": "caption",
+                "height": 24
+              },
+              {
+                "name": "Todo 목록 (현재 위치)",
+                "type": "link",
+                "height": 44
+              }
+            ],
+            "width": 240,
+            "grow": false,
+            "gap": 8,
+            "padding": 24,
+            "_solves": "요청된 고정 탐색 영역. 목록으로 복귀하며 검색·필터를 중복 배치하지 않는다."
+          },
+          {
+            "name": "메인 작업 영역",
+            "direction": "vertical",
+            "children": [
+              {
+                "name": "페이지 제목과 주요 동작",
+                "direction": "horizontal",
+                "children": [
+                  {
+                    "name": "Todo 목록",
+                    "type": "text",
+                    "variant": "display",
+                    "height": 48
+                  }
+                ],
+                "gap": 16,
+                "justify": "space-between",
+                "align": "center"
+              },
+              {
+                "name": "검색·필터 숨기기",
+                "type": "button",
+                "height": 44,
+                "_solves": "todo-filters-toggle"
+              },
+              {
+                "name": "검색 및 상태 필터",
+                "direction": "horizontal",
+                "children": [
+                  {
+                    "name": "내용 검색",
+                    "direction": "vertical",
+                    "children": [
+                      {
+                        "name": "검색",
+                        "type": "text",
+                        "variant": "caption",
+                        "height": 24
+                      },
+                      {
+                        "name": "Todo 내용 검색",
+                        "type": "input",
+                        "height": 44,
+                        "grow": true
+                      }
+                    ],
+                    "grow": true,
+                    "gap": 8
+                  },
+                  {
+                    "name": "상태 선택",
+                    "direction": "vertical",
+                    "children": [
+                      {
+                        "name": "상태 필터",
+                        "type": "text",
+                        "variant": "caption",
+                        "height": 24
+                      },
+                      {
+                        "name": "전체 / 미완료 / 완료",
+                        "type": "input",
+                        "height": 44,
+                        "grow": true
+                      }
+                    ],
+                    "width": 240,
+                    "gap": 8
+                  }
+                ],
+                "gap": 16,
+                "_solves": "todo-filters"
+              },
+              {
+                "name": "표시할 항목 0개",
+                "type": "text",
+                "variant": "caption",
+                "height": 24
+              },
+              {
+                "name": "목록 상태 안내",
+                "direction": "vertical",
+                "children": [
+                  {
+                    "name": "아직 등록한 Todo가 없습니다",
+                    "type": "text",
+                    "variant": "heading",
+                    "height": 40
+                  },
+                  {
+                    "name": "첫 할 일을 등록해 보세요.",
+                    "type": "text",
+                    "height": 24
+                  },
+                  {
+                    "name": "첫 Todo 등록",
+                    "type": "button",
+                    "height": 44
+                  }
+                ],
+                "gap": 16,
+                "padding": 32,
+                "height": 320,
+                "justify": "center",
+                "align": "center"
+              }
+            ],
+            "grow": true,
+            "padding": 32,
+            "gap": 32
+          }
+        ],
+        "grow": true
+      }
+    ],
+    "height": 960
+  }
+}

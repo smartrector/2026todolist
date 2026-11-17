@@ -1,0 +1,137 @@
+{
+  "checkedAt": "2026-11-17T02:24:28.655Z",
+  "result": "PASS",
+  "scope": "Static schema, layout, grayscale, HTML/JSON parity, JS syntax, no React; mocked DOM action tests: bidirectional status toggle, summary/JSON refresh, focus restoration, edit/delete screen navigation",
+  "counts": {
+    "desktop": 6,
+    "mobile": 7,
+    "nodes": 331,
+    "inlineScripts": 13,
+    "interactiveLists": 3,
+    "filterToggles": 3
+  },
+  "issues": [],
+  "browserVerification": {
+    "result": "BLOCKED",
+    "reason": "Chrome headless exited before rendering: Windows CreateFile / mojo platform channel Access denied (0x5). No screenshot or runtime layout pass is claimed."
+  },
+  "details": [
+    {
+      "json": "todo-create-desktop.wireframe.json",
+      "html": "todo-create-desktop.wireframe.html",
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "nodes": 20
+    },
+    {
+      "json": "todo-create-mobile.wireframe.json",
+      "html": "todo-create-mobile.wireframe.html",
+      "viewport": {
+        "width": 375,
+        "height": 1440
+      },
+      "nodes": 17
+    },
+    {
+      "json": "todo-delete-desktop.wireframe.json",
+      "html": "todo-delete-desktop.wireframe.html",
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "nodes": 20
+    },
+    {
+      "json": "todo-delete-mobile.wireframe.json",
+      "html": "todo-delete-mobile.wireframe.html",
+      "viewport": {
+        "width": 375,
+        "height": 1440
+      },
+      "nodes": 17
+    },
+    {
+      "json": "todo-edit-desktop.wireframe.json",
+      "html": "todo-edit-desktop.wireframe.html",
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "nodes": 20
+    },
+    {
+      "json": "todo-edit-mobile.wireframe.json",
+      "html": "todo-edit-mobile.wireframe.html",
+      "viewport": {
+        "width": 375,
+        "height": 1440
+      },
+      "nodes": 17
+    },
+    {
+      "json": "todo-empty-desktop.wireframe.json",
+      "html": "todo-empty-desktop.wireframe.html",
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "nodes": 25
+    },
+    {
+      "json": "todo-empty-mobile.wireframe.json",
+      "html": "todo-empty-mobile.wireframe.html",
+      "viewport": {
+        "width": 375,
+        "height": 1440
+      },
+      "nodes": 22
+    },
+    {
+      "json": "todo-list-desktop.wireframe.json",
+      "html": "todo-list-desktop.wireframe.html",
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "nodes": 44
+    },
+    {
+      "json": "todo-list-mobile.wireframe.json",
+      "html": "todo-list-mobile.wireframe.html",
+      "viewport": {
+        "width": 375,
+        "height": 1440
+      },
+      "nodes": 38
+    },
+    {
+      "json": "todo-no-results-desktop.wireframe.json",
+      "html": "todo-no-results-desktop.wireframe.html",
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "nodes": 26
+    },
+    {
+      "json": "todo-no-results-mobile.wireframe.json",
+      "html": "todo-no-results-mobile.wireframe.html",
+      "viewport": {
+        "width": 375,
+        "height": 1440
+      },
+      "nodes": 23
+    },
+    {
+      "json": "todo-sidebar-open-mobile.wireframe.json",
+      "html": "todo-sidebar-open-mobile.wireframe.html",
+      "viewport": {
+        "width": 375,
+        "height": 1440
+      },
+      "nodes": 42
+    }
+  ]
+}

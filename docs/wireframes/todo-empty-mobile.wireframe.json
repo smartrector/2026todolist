@@ -1,0 +1,159 @@
+{
+  "name": "Todo Empty Mobile",
+  "viewport": {
+    "width": 375,
+    "height": 1440
+  },
+  "root": {
+    "name": "페이지",
+    "direction": "vertical",
+    "children": [
+      {
+        "name": "헤더",
+        "direction": "horizontal",
+        "children": [
+          {
+            "name": "Todo",
+            "type": "text",
+            "variant": "heading",
+            "height": 40
+          },
+          {
+            "name": "메뉴 열기",
+            "type": "link",
+            "height": 44
+          }
+        ],
+        "height": 64,
+        "padding": [
+          8,
+          16
+        ],
+        "gap": 8,
+        "justify": "space-between",
+        "align": "center"
+      },
+      {
+        "name": "구분선",
+        "type": "divider"
+      },
+      {
+        "name": "본문",
+        "direction": "vertical",
+        "children": [
+          {
+            "name": "메인 작업 영역",
+            "direction": "vertical",
+            "children": [
+              {
+                "name": "페이지 제목과 주요 동작",
+                "direction": "vertical",
+                "children": [
+                  {
+                    "name": "Todo 목록",
+                    "type": "text",
+                    "variant": "display",
+                    "height": 48
+                  }
+                ],
+                "gap": 16,
+                "justify": "space-between"
+              },
+              {
+                "name": "검색·필터 숨기기",
+                "type": "button",
+                "height": 44,
+                "_solves": "todo-filters-toggle"
+              },
+              {
+                "name": "검색 및 상태 필터",
+                "direction": "vertical",
+                "children": [
+                  {
+                    "name": "내용 검색",
+                    "direction": "vertical",
+                    "children": [
+                      {
+                        "name": "검색",
+                        "type": "text",
+                        "variant": "caption",
+                        "height": 24
+                      },
+                      {
+                        "name": "Todo 내용 검색",
+                        "type": "input",
+                        "height": 44,
+                        "grow": true
+                      }
+                    ],
+                    "grow": true,
+                    "gap": 8
+                  },
+                  {
+                    "name": "상태 선택",
+                    "direction": "vertical",
+                    "children": [
+                      {
+                        "name": "상태 필터",
+                        "type": "text",
+                        "variant": "caption",
+                        "height": 24
+                      },
+                      {
+                        "name": "전체 / 미완료 / 완료",
+                        "type": "input",
+                        "height": 44,
+                        "grow": true
+                      }
+                    ],
+                    "gap": 8
+                  }
+                ],
+                "gap": 16,
+                "_solves": "todo-filters"
+              },
+              {
+                "name": "표시할 항목 0개",
+                "type": "text",
+                "variant": "caption",
+                "height": 40
+              },
+              {
+                "name": "목록 상태 안내",
+                "direction": "vertical",
+                "children": [
+                  {
+                    "name": "아직 등록한 Todo가 없습니다",
+                    "type": "text",
+                    "variant": "heading",
+                    "height": 72
+                  },
+                  {
+                    "name": "첫 할 일을 등록해 보세요.",
+                    "type": "text",
+                    "height": 48
+                  },
+                  {
+                    "name": "첫 Todo 등록",
+                    "type": "button",
+                    "height": 44
+                  }
+                ],
+                "gap": 16,
+                "padding": 16,
+                "height": 288,
+                "justify": "center",
+                "align": "center"
+              }
+            ],
+            "grow": true,
+            "padding": 24,
+            "gap": 24
+          }
+        ],
+        "grow": true
+      }
+    ],
+    "height": 1440
+  }
+}

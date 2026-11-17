@@ -1,0 +1,6 @@
+[
+ {"name":"open_file","arguments":{"path":"C:/hanyong5/04test/01testproject/docs/design/figcraft/hifi/todo-hifi.figcraft"}},
+ {"name":"set_properties","arguments":{"ids":[32,42,52],"props":{"sizingH":"fill"}},"maxOutput":300},
+ {"name":"set_properties","arguments":{"ids":[151,198],"props":{"sizingH":"fill","sizingV":"fill"}},"maxOutput":300},
+ {"name":"save_file","arguments":{"path":"C:/hanyong5/04test/01testproject/docs/design/figcraft/hifi/todo-hifi.figcraft"}}
+]

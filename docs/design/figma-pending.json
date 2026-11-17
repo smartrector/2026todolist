@@ -1,0 +1,22 @@
+{
+  "status": "blocked-mcp-plan-limit",
+  "fileKey": "F9EHk7ctFWMH88rcaWfo7u",
+  "existingFrames": ["5:261", "5:387"],
+  "pendingSources": [
+    "todo-create-desktop.wireframe.json",
+    "todo-create-mobile.wireframe.json",
+    "todo-edit-desktop.wireframe.json",
+    "todo-edit-mobile.wireframe.json",
+    "todo-delete-desktop.wireframe.json",
+    "todo-delete-mobile.wireframe.json",
+    "todo-empty-desktop.wireframe.json",
+    "todo-empty-mobile.wireframe.json",
+    "todo-no-results-desktop.wireframe.json",
+    "todo-no-results-mobile.wireframe.json",
+    "todo-sidebar-open-mobile.wireframe.json"
+  ],
+  "sourceDirectory": "docs/wireframes",
+  "preview": "docs/wireframes/index.html",
+  "createdAdditionalFrames": 0,
+  "blocker": "Figma MCP returned Starter plan tool call limit; account plan verified with whoami."
+}

@@ -1,0 +1,98 @@
+{
+  "format": "figcraft",
+  "screenCount": 13,
+  "fontFamily": "Noto Sans KR",
+  "frames": [
+    {
+      "id": 2,
+      "name": "Todo List Desktop",
+      "width": 1440,
+      "height": 960,
+      "source": "todo-list-desktop.wireframe.json"
+    },
+    {
+      "id": 60,
+      "name": "Todo List Mobile",
+      "width": 375,
+      "height": 1440,
+      "source": "todo-list-mobile.wireframe.json"
+    },
+    {
+      "id": 112,
+      "name": "Todo Create Desktop",
+      "width": 1440,
+      "height": 960,
+      "source": "todo-create-desktop.wireframe.json"
+    },
+    {
+      "id": 137,
+      "name": "Todo Create Mobile",
+      "width": 375,
+      "height": 1440,
+      "source": "todo-create-mobile.wireframe.json"
+    },
+    {
+      "id": 159,
+      "name": "Todo Edit Desktop",
+      "width": 1440,
+      "height": 960,
+      "source": "todo-edit-desktop.wireframe.json"
+    },
+    {
+      "id": 184,
+      "name": "Todo Edit Mobile",
+      "width": 375,
+      "height": 1440,
+      "source": "todo-edit-mobile.wireframe.json"
+    },
+    {
+      "id": 206,
+      "name": "Todo Delete Desktop",
+      "width": 1440,
+      "height": 960,
+      "source": "todo-delete-desktop.wireframe.json"
+    },
+    {
+      "id": 229,
+      "name": "Todo Delete Mobile",
+      "width": 375,
+      "height": 1440,
+      "source": "todo-delete-mobile.wireframe.json"
+    },
+    {
+      "id": 249,
+      "name": "Todo Empty Desktop",
+      "width": 1440,
+      "height": 960,
+      "source": "todo-empty-desktop.wireframe.json"
+    },
+    {
+      "id": 279,
+      "name": "Todo Empty Mobile",
+      "width": 375,
+      "height": 1440,
+      "source": "todo-empty-mobile.wireframe.json"
+    },
+    {
+      "id": 306,
+      "name": "Todo No Results Desktop",
+      "width": 1440,
+      "height": 960,
+      "source": "todo-no-results-desktop.wireframe.json"
+    },
+    {
+      "id": 338,
+      "name": "Todo No Results Mobile",
+      "width": 375,
+      "height": 1440,
+      "source": "todo-no-results-mobile.wireframe.json"
+    },
+    {
+      "id": 367,
+      "name": "Todo Sidebar Open Mobile",
+      "width": 375,
+      "height": 1440,
+      "source": "todo-sidebar-open-mobile.wireframe.json"
+    }
+  ]
+}

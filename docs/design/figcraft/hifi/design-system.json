@@ -1,0 +1,141 @@
+{
+  "font": "Pretendard",
+  "colors": {
+    "paper": "#F6F6F2",
+    "surface": "#FFFFFF",
+    "surfaceAlt": "#EEF3F8",
+    "ink": "#14263D",
+    "secondary": "#34465B",
+    "muted": "#626A70",
+    "rule": "#CBD0D1",
+    "border": "#7A899B",
+    "navyHover": "#223D5D",
+    "blue": "#245CB0",
+    "blueSoft": "#EAF1FC",
+    "focus": "#527BBD",
+    "error": "#B42332",
+    "errorSoft": "#FFF0F2",
+    "success": "#17633E",
+    "successSoft": "#EAF6EF",
+    "disabled": "#DDE3EB",
+    "onDark": "#F6F6F2",
+    "onDarkMuted": "#BAC4CF"
+  },
+  "baseDocument": "docs/design-system.md",
+  "style": "Flat Design + Micro-interactions",
+  "scope": "Hallmark restyle / app",
+  "sizes": {
+    "body": 16,
+    "label": 14,
+    "title": 28,
+    "section": 24
+  },
+  "radius": {
+    "control": 8,
+    "card": 12
+  },
+  "breakpoints": {
+    "sidebar": 960,
+    "stack": 768
+  },
+  "touchTarget": 44,
+  "originalScreens": 13,
+  "boards": [
+    425,
+    497,
+    599
+  ],
+  "frames": [
+    {
+      "id": 2,
+      "name": "Todo List Desktop",
+      "width": 1440,
+      "height": 960,
+      "source": "todo-list-desktop.wireframe.json"
+    },
+    {
+      "id": 60,
+      "name": "Todo List Mobile",
+      "width": 375,
+      "height": 1440,
+      "source": "todo-list-mobile.wireframe.json"
+    },
+    {
+      "id": 112,
+      "name": "Todo Create Desktop",
+      "width": 1440,
+      "height": 960,
+      "source": "todo-create-desktop.wireframe.json"
+    },
+    {
+      "id": 137,
+      "name": "Todo Create Mobile",
+      "width": 375,
+      "height": 1440,
+      "source": "todo-create-mobile.wireframe.json"
+    },
+    {
+      "id": 159,
+      "name": "Todo Edit Desktop",
+      "width": 1440,
+      "height": 960,
+      "source": "todo-edit-desktop.wireframe.json"
+    },
+    {
+      "id": 184,
+      "name": "Todo Edit Mobile",
+      "width": 375,
+      "height": 1440,
+      "source": "todo-edit-mobile.wireframe.json"
+    },
+    {
+      "id": 206,
+      "name": "Todo Delete Desktop",
+      "width": 1440,
+      "height": 960,
+      "source": "todo-delete-desktop.wireframe.json"
+    },
+    {
+      "id": 229,
+      "name": "Todo Delete Mobile",
+      "width": 375,
+      "height": 1440,
+      "source": "todo-delete-mobile.wireframe.json"
+    },
+    {
+      "id": 249,
+      "name": "Todo Empty Desktop",
+      "width": 1440,
+      "height": 960,
+      "source": "todo-empty-desktop.wireframe.json"
+    },
+    {
+      "id": 279,
+      "name": "Todo Empty Mobile",
+      "width": 375,
+      "height": 1440,
+      "source": "todo-empty-mobile.wireframe.json"
+    },
+    {
+      "id": 306,
+      "name": "Todo No Results Desktop",
+      "width": 1440,
+      "height": 960,
+      "source": "todo-no-results-desktop.wireframe.json"
+    },
+    {
+      "id": 338,
+      "name": "Todo No Results Mobile",
+      "width": 375,
+      "height": 1440,
+      "source": "todo-no-results-mobile.wireframe.json"
+    },
+    {
+      "id": 367,
+      "name": "Todo Sidebar Open Mobile",
+      "width": 375,
+      "height": 1440,
+      "source": "todo-sidebar-open-mobile.wireframe.json"
+    }
+  ]
+}

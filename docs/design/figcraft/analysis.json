@@ -1,0 +1,146 @@
+{
+  "status": "blocked-plugin-not-open",
+  "inventory": [
+    {
+      "file": "todo-create-desktop.wireframe.json",
+      "name": "Todo Create Desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "nodes": 20
+    },
+    {
+      "file": "todo-create-mobile.wireframe.json",
+      "name": "Todo Create Mobile",
+      "viewport": {
+        "width": 375,
+        "height": 1440
+      },
+      "nodes": 17
+    },
+    {
+      "file": "todo-delete-desktop.wireframe.json",
+      "name": "Todo Delete Desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "nodes": 20
+    },
+    {
+      "file": "todo-delete-mobile.wireframe.json",
+      "name": "Todo Delete Mobile",
+      "viewport": {
+        "width": 375,
+        "height": 1440
+      },
+      "nodes": 17
+    },
+    {
+      "file": "todo-edit-desktop.wireframe.json",
+      "name": "Todo Edit Desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "nodes": 20
+    },
+    {
+      "file": "todo-edit-mobile.wireframe.json",
+      "name": "Todo Edit Mobile",
+      "viewport": {
+        "width": 375,
+        "height": 1440
+      },
+      "nodes": 17
+    },
+    {
+      "file": "todo-empty-desktop.wireframe.json",
+      "name": "Todo Empty Desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "nodes": 25
+    },
+    {
+      "file": "todo-empty-mobile.wireframe.json",
+      "name": "Todo Empty Mobile",
+      "viewport": {
+        "width": 375,
+        "height": 1440
+      },
+      "nodes": 22
+    },
+    {
+      "file": "todo-list-desktop.wireframe.json",
+      "name": "Todo List Desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "nodes": 44
+    },
+    {
+      "file": "todo-list-mobile.wireframe.json",
+      "name": "Todo List Mobile",
+      "viewport": {
+        "width": 375,
+        "height": 1440
+      },
+      "nodes": 38
+    },
+    {
+      "file": "todo-no-results-desktop.wireframe.json",
+      "name": "Todo No Results Desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "nodes": 26
+    },
+    {
+      "file": "todo-no-results-mobile.wireframe.json",
+      "name": "Todo No Results Mobile",
+      "viewport": {
+        "width": 375,
+        "height": 1440
+      },
+      "nodes": 23
+    },
+    {
+      "file": "todo-sidebar-open-mobile.wireframe.json",
+      "name": "Todo Sidebar Open Mobile",
+      "viewport": {
+        "width": 375,
+        "height": 1440
+      },
+      "nodes": 42
+    }
+  ],
+  "scope": [
+    "todo-list-desktop.wireframe.json",
+    "todo-list-mobile.wireframe.json"
+  ],
+  "mapping": {
+    "direction": "layoutMode",
+    "gap": "itemSpacing",
+    "padding": "padding or paddingTop/Right/Bottom/Left",
+    "justify": "primaryAxisAlignItems",
+    "align": "counterAxisAlignItems",
+    "grow": "layoutSizingHorizontal/Vertical FILL",
+    "text": "editable TEXT",
+    "button": "Auto Layout FRAME with editable TEXT label"
+  },
+  "files": [
+    "todo-list-desktop.figcraft.json",
+    "todo-list-mobile.figcraft.json"
+  ],
+  "verification": {
+    "sourceJson": "parsed",
+    "figmaNodes": "not-created",
+    "render": "not-verified"
+  },
+  "blocker": "No Figma plugin found on relay ports 3055-3060"
+}

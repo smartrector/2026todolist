@@ -1,0 +1,39 @@
+{
+  "tools": ["UI/UX Pro Max local guidance", "Hallmark restyle guidance", "FigCraft native stdio MCP"],
+  "hallmark": {
+    "version": "2.0.0",
+    "scope": "app",
+    "depth": "restyle",
+    "direction": "Locked project design system with user-requested blue selection and focus states",
+    "signature": "Todo list with visible status, edit and delete actions on a single row",
+    "noHero": true,
+    "material": "Existing 13 Lo-fi screens and three example Todo records",
+    "preserved": ["All source screen names", "All source text and actions", "Desktop sidebar and mobile menu", "Search/filter order", "Create/edit/delete and empty/no-results flows"],
+    "createdFilesUnder": "docs/design/figcraft/hifi",
+    "reactSourceChanged": false,
+    "originalDesignSystemChanged": false,
+    "renderMethod": "Native FigCraft CLI PNG exports",
+    "sloplint": "Invoked with --render; no supported HTML/CSS inputs for native .figcraft output. Not reported as a lint pass."
+  },
+  "uiUxProMax": {
+    "productSource": ".agents/skills/ui-ux-pro-max/data/products.csv, Productivity Tool row 16",
+    "styleSource": ".agents/skills/ui-ux-pro-max/data/styles.csv, Flat Design and Micro-interactions",
+    "guidance": "Clear hierarchy, functional colors, speed and efficiency; 44px touch targets; visible labels and text error messages",
+    "searchScript": "Attempted --design-system; Python and py were unavailable, so verified local CSV rows and skill rules were used directly",
+    "paletteOverride": "Project navy and user-requested blue take precedence over the generic productivity teal/orange palette",
+    "typographyOverride": "User-requested Pretendard takes precedence over generic Korean Modern Noto Sans KR pairing"
+  },
+  "font": {
+    "family": "Pretendard",
+    "stylesInstalled": ["Regular", "Medium", "SemiBold", "Bold"],
+    "availableInFigCraft": true,
+    "embeddedInDocument": false,
+    "redistributionFiles": "fonts/",
+    "officialSource": "https://github.com/orioncactus/pretendard",
+    "license": "fonts/LICENSE.txt"
+  },
+  "limitations": [
+    "Interaction states are editable visual specifications, not implemented application handlers.",
+    "1440px and 375px frames are rendered; intermediate breakpoints are documented on the responsive board, not browser-tested."
+  ]
+}

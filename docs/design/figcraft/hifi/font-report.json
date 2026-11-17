@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"embeddedFontFiles\": 0,\n  \"externalPenpotFontRefs\": [],\n  \"fontLicenseNotices\": 0,\n  \"fonts\": [\n    {\n      \"available\": true,\n      \"family\": \"Pretendard\",\n      \"layers\": [\n        \"Todo\",\n        \"Todo 내용 (필수)\",\n        \"Todo 내용 검색\",\n        \"Todo 등록\",\n        \"Todo 목록\",\n        \"Todo 목록 (현재 위치)\",\n        \"검색\",\n        \"검색·필터 숨기기\",\n        \"공백만 입력하면 저장할 수 없습니다.\",\n        \"등록 폼 검증 항목 확인\",\n        \"메뉴 열기\",\n        \"목록으로 돌아가기\",\n        \"미완료\",\n        \"삭제\",\n        \"상태 필터\",\n        \"새 Todo는 미완료로 등록됩니다.\",\n        \"수정\",\n        \"예시 데이터: 전체 3개 / 미완료 2개 / 완료 1개\",\n        \"와이어프레임 의견 정리\",\n        \"완료\",\n        \"작업 공간\",\n        \"전체 / 미완료 / 완료\",\n        \"할 일 관리\",\n        \"할 일을 입력하세요\",\n        \"화면 흐름 문서 검토\"\n      ]\n    }\n  ],\n  \"missing\": 0,\n  \"total\": 1\n}"
+    }
+  ],
+  "isError": false
+}

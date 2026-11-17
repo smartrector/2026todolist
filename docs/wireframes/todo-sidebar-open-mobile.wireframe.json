@@ -1,0 +1,296 @@
+{
+  "name": "Todo Sidebar Open Mobile",
+  "viewport": {
+    "width": 375,
+    "height": 1440
+  },
+  "root": {
+    "name": "페이지",
+    "direction": "vertical",
+    "children": [
+      {
+        "name": "헤더",
+        "direction": "horizontal",
+        "children": [
+          {
+            "name": "Todo",
+            "type": "text",
+            "variant": "heading",
+            "height": 40
+          },
+          {
+            "name": "메뉴 닫기",
+            "type": "link",
+            "height": 44
+          }
+        ],
+        "height": 64,
+        "padding": [
+          8,
+          16
+        ],
+        "gap": 8,
+        "justify": "space-between",
+        "align": "center"
+      },
+      {
+        "name": "구분선",
+        "type": "divider"
+      },
+      {
+        "name": "본문",
+        "direction": "vertical",
+        "children": [
+          {
+            "name": "모바일 사이드바 펼침",
+            "direction": "vertical",
+            "children": [
+              {
+                "name": "작업 공간",
+                "type": "text",
+                "variant": "caption",
+                "height": 24
+              },
+              {
+                "name": "Todo 목록 (현재 위치)",
+                "type": "link",
+                "height": 44
+              },
+              {
+                "name": "메뉴 닫기",
+                "type": "link",
+                "height": 44
+              }
+            ],
+            "gap": 8,
+            "padding": 16,
+            "_solves": "375px에서는 기본 숨김. 헤더 메뉴로 여는 서랍의 탐색 구조. 닫을 때 메뉴 버튼에 포커스 복귀."
+          },
+          {
+            "name": "메인 작업 영역",
+            "direction": "vertical",
+            "children": [
+              {
+                "name": "페이지 제목과 주요 동작",
+                "direction": "vertical",
+                "children": [
+                  {
+                    "name": "Todo 목록",
+                    "type": "text",
+                    "variant": "display",
+                    "height": 48
+                  },
+                  {
+                    "name": "Todo 등록",
+                    "type": "button",
+                    "height": 44
+                  }
+                ],
+                "gap": 16,
+                "justify": "space-between"
+              },
+              {
+                "name": "검색·필터 숨기기",
+                "type": "button",
+                "height": 44,
+                "_solves": "todo-filters-toggle"
+              },
+              {
+                "name": "검색 및 상태 필터",
+                "direction": "vertical",
+                "children": [
+                  {
+                    "name": "내용 검색",
+                    "direction": "vertical",
+                    "children": [
+                      {
+                        "name": "검색",
+                        "type": "text",
+                        "variant": "caption",
+                        "height": 24
+                      },
+                      {
+                        "name": "Todo 내용 검색",
+                        "type": "input",
+                        "height": 44,
+                        "grow": true
+                      }
+                    ],
+                    "grow": true,
+                    "gap": 8
+                  },
+                  {
+                    "name": "상태 선택",
+                    "direction": "vertical",
+                    "children": [
+                      {
+                        "name": "상태 필터",
+                        "type": "text",
+                        "variant": "caption",
+                        "height": 24
+                      },
+                      {
+                        "name": "전체 / 미완료 / 완료",
+                        "type": "input",
+                        "height": 44,
+                        "grow": true
+                      }
+                    ],
+                    "gap": 8
+                  }
+                ],
+                "gap": 16,
+                "_solves": "todo-filters"
+              },
+              {
+                "name": "예시 데이터: 전체 3개 / 미완료 2개 / 완료 1개",
+                "type": "text",
+                "variant": "caption",
+                "height": 40,
+                "_solves": "todo-summary"
+              },
+              {
+                "name": "Todo 목록",
+                "direction": "vertical",
+                "children": [
+                  {
+                    "name": "화면 흐름 문서 검토 항목",
+                    "direction": "horizontal",
+                    "children": [
+                      {
+                        "name": "화면 흐름 문서 검토",
+                        "type": "text",
+                        "height": 64,
+                        "grow": true
+                      },
+                      {
+                        "name": "완료 상태 및 항목 동작",
+                        "direction": "horizontal",
+                        "children": [
+                          {
+                            "name": "미완료",
+                            "type": "button",
+                            "height": 32,
+                            "_solves": "todo-toggle"
+                          },
+                          {
+                            "name": "수정",
+                            "type": "button",
+                            "height": 32,
+                            "_solves": "todo-edit"
+                          },
+                          {
+                            "name": "삭제",
+                            "type": "button",
+                            "height": 32,
+                            "_solves": "todo-delete"
+                          }
+                        ],
+                        "gap": 4,
+                        "align": "center"
+                      }
+                    ],
+                    "height": 80,
+                    "gap": 8,
+                    "align": "center",
+                    "_solves": "todo-mobile-row"
+                  },
+                  {
+                    "name": "와이어프레임 의견 정리 항목",
+                    "direction": "horizontal",
+                    "children": [
+                      {
+                        "name": "와이어프레임 의견 정리",
+                        "type": "text",
+                        "height": 64,
+                        "grow": true
+                      },
+                      {
+                        "name": "완료 상태 및 항목 동작",
+                        "direction": "horizontal",
+                        "children": [
+                          {
+                            "name": "완료",
+                            "type": "button",
+                            "height": 32,
+                            "_solves": "todo-toggle"
+                          },
+                          {
+                            "name": "수정",
+                            "type": "button",
+                            "height": 32,
+                            "_solves": "todo-edit"
+                          },
+                          {
+                            "name": "삭제",
+                            "type": "button",
+                            "height": 32,
+                            "_solves": "todo-delete"
+                          }
+                        ],
+                        "gap": 4,
+                        "align": "center"
+                      }
+                    ],
+                    "height": 80,
+                    "gap": 8,
+                    "align": "center",
+                    "_solves": "todo-mobile-row"
+                  },
+                  {
+                    "name": "등록 폼 검증 항목 확인 항목",
+                    "direction": "horizontal",
+                    "children": [
+                      {
+                        "name": "등록 폼 검증 항목 확인",
+                        "type": "text",
+                        "height": 64,
+                        "grow": true
+                      },
+                      {
+                        "name": "완료 상태 및 항목 동작",
+                        "direction": "horizontal",
+                        "children": [
+                          {
+                            "name": "미완료",
+                            "type": "button",
+                            "height": 32,
+                            "_solves": "todo-toggle"
+                          },
+                          {
+                            "name": "수정",
+                            "type": "button",
+                            "height": 32,
+                            "_solves": "todo-edit"
+                          },
+                          {
+                            "name": "삭제",
+                            "type": "button",
+                            "height": 32,
+                            "_solves": "todo-delete"
+                          }
+                        ],
+                        "gap": 4,
+                        "align": "center"
+                      }
+                    ],
+                    "height": 80,
+                    "gap": 8,
+                    "align": "center",
+                    "_solves": "todo-mobile-row"
+                  }
+                ],
+                "gap": 12
+              }
+            ],
+            "grow": true,
+            "padding": 24,
+            "gap": 24
+          }
+        ],
+        "grow": true
+      }
+    ],
+    "height": 1440
+  }
+}
