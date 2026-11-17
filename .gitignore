@@ -1,4 +1,4 @@
-.agents/
+
 node_modules/
 .hallmark/screenshots/
 dist/

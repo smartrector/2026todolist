@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C \"/Users/yhassy/Documents/My Apps/wireframe-skill\" status)",
+      "Bash(git -C \"/Users/yhassy/Documents/My Apps/wireframe-skill\" init)"
+    ]
+  }
+}
